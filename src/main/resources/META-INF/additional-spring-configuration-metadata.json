@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spark.app.name",
+      "type": "java.lang.String",
+      "description": "Description for spark.app.name."
+  }
+] }
