@@ -6,16 +6,17 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>edu.kokhan.crimeanalysis</groupId>
-    <artifactId>chanse-of-second-crime</artifactId>
+    <artifactId>chance-of-second-crime</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chanse-of-second-crime</name>
+    <name>chance-of-second-crime</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>12</java.version>
+        <scala.version>2.12.4</scala.version>
     </properties>
 
     <dependencies>
@@ -56,13 +57,13 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.12.0</version>
+            <version>${scala.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-compiler</artifactId>
-            <version>2.12.0</version>
+            <version>${scala.version}</version>
         </dependency>
 
     </dependencies>
@@ -97,7 +98,7 @@
                 </executions>
                 <configuration>
                     <recompileMode>incremental</recompileMode>
-                    <scalaVersion>2.12.0</scalaVersion>
+                    <scalaVersion>${scala.version}</scalaVersion>
                     <args>
                         <arg>-deprecation</arg>
                     </args>
