@@ -1,4 +1,4 @@
-package chanseofsecondcrime.config
+package chanceofsecondcrime.config
 
 import org.apache.spark.SparkContext
 import org.apache.spark.mllib.classification.{LogisticRegressionModel, LogisticRegressionWithLBFGS}

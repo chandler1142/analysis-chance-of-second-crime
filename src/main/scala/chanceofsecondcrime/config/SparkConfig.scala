@@ -1,4 +1,4 @@
-package chanseofsecondcrime.config
+package chanceofsecondcrime.config
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.springframework.beans.factory.annotation.Value
